@@ -77,3 +77,18 @@ input::placeholder {
   font-size: 12px;
   width: 33%;
 }
+
+li::before {
+  font-family: "FontAwesome";
+  content: "\f14a";
+  margin-right: 5px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li::after {
+  font-family: "FontAwesome";
+  content: "\f2ed";
+}
