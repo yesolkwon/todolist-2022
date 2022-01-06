@@ -35,7 +35,8 @@ function paintTodo(addtodo) {
   const span = document.createElement("span");
   span.innerText = addtodo.text;
   const button = document.createElement("button");
-  button.innerText = "X";
+
+  button.innerText = "";
   button.addEventListener("click", deleteTodo);
 
   todoList.appendChild(li);
