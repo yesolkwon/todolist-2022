@@ -80,15 +80,16 @@ input::placeholder {
 
 li::before {
   font-family: "FontAwesome";
-  content: "\f14a";
+  content: "\f111";
   margin-right: 5px;
+  font-size: 5px;
 }
 
 ul li {
   list-style-type: none;
 }
 
-li::after {
-  font-family: "FontAwesome";
-  content: "\f2ed";
+li button {
+  border: none;
+  background-color: none;
 }
