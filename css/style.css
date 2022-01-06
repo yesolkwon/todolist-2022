@@ -81,7 +81,7 @@ input::placeholder {
 li::before {
   font-family: "FontAwesome";
   content: "\f111";
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 5px;
 }
 
